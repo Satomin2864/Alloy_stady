@@ -9,6 +9,9 @@ one sig Person {
 	birthday: one Birthday,
 }
 sig Name { }
+// 問題点
+// Ageが独立して存在している
+// > 年齢だけのデータが存在しているのはおかしい
 sig Age {
 	age: one Int
 }
