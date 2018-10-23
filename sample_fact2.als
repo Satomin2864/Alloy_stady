@@ -1,3 +1,5 @@
+// Alloy本のページ115のfact例
+// モデル化を行うのはファイルシステム
 sig Object {}
 sig Directory extends Object {
 	contents: set Object
